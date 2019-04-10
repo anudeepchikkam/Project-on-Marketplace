@@ -37,7 +37,7 @@ if (isset($_SESSION['results'])) {
         <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
             <!-- Sidebar - Brand -->
-            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.php">
                 <div class="sidebar-brand-icon rotate-n-15">
                     <!-- <i class="fas fa-laugh-wink"></i>-->
                 </div>
@@ -86,6 +86,7 @@ if (isset($_SESSION['results'])) {
                 <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Course List:</h6>
+						<a class="collapse-item" href="courses.html">All courses</a>
                         <a class="collapse-item" href="#">Recently viewed</a>
                         <a class="collapse-item" href="#">In progress</a>
                         <a class="collapse-item" href="#">Completed</a>
@@ -510,7 +511,7 @@ if (isset($_SESSION['results'])) {
                 <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
                 <div class="modal-footer">
                     <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-                    <a class="btn btn-primary" href="../index.php">Logout</a>
+                    <a class="btn btn-primary" href="../index.html">Logout</a>
                 </div>
             </div>
         </div>
