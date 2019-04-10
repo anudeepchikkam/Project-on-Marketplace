@@ -1,7 +1,7 @@
 ﻿<?php
 $servername = "localhost";
 $dBUsername = "root";
-$dbPassword = "root";
+$dbPassword = "";
 $dBName = "contadel";
 
 $conn = mysqli_connect($servername, $dBUsername, $dbPassword, $dBName);

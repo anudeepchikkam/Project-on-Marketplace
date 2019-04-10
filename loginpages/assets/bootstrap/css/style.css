@@ -93,3 +93,11 @@ change button and right attribute if you want to change the position of the butt
   opacity: 1;
   visibility: visible;
 }
+
+/* Alternatively you can you bootstrap back to top function like this
+<body id="page-top">
+    (Contents)
+    <a class="scroll-to-top rounded" href="#page-top">
+      <i class="fas fa-angle-up"></i>
+    </a>
+<body>
