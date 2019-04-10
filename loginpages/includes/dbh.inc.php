@@ -1,4 +1,5 @@
 ﻿<?php
+//Connection to the database, please change the value if your server is different
 $servername = "localhost";
 $dBUsername = "root";
 $dbPassword = "";
