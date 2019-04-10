@@ -26,14 +26,14 @@ These are the following web pages:
 *	CV - a portfolio of a user
 *	Contact - contact form for the user to use
 
-The login directory provides the users the following functionality for each file:
-Register – This is where professionals create their accounts, the details are stored inside the users table, the passwords are also hashed before being sent.
-Login – This is where the user can log into their dashboard
-Index – Users own dashboard page
-Tabs – A list of professionals with different format to view
-Forgot-password – Reset password by sending email to user (not fully implemented)
-Courses - Main page of courses that links to individual training courses
-CV - A portfolio of a user loaded by searching on the index page
+The login directory structure is as followed:
+*	Register – This is where professionals create their accounts, the details are stored inside the users table, the passwords are also hashed before being sent.
+*	Login – This is where the user can log into their dashboard
+*	Index – Users own dashboard page
+*	Tabs – A list of professionals with different format to view
+*	Forgot-password – Reset password by sending email to user (not fully implemented)
+*	Courses - Main page of courses that links to individual training courses
+*	CV - A portfolio of a user loaded by searching on the index page
 
 ## Built With
 
