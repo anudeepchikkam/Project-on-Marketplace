@@ -5,11 +5,16 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
   <title>Home - Contadel</title>
+    
+  <!-- Stylesheet-->
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
   <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css">
+  <!-- End of stylesheet-->
 </head>
+
+<!-- Registeration complete notifcation script-->
 <script>
       document.addEventListener("DOMContentLoaded", function() {
         if(window.location.href.indexOf('success') > 0 ) {
@@ -17,9 +22,12 @@
         }
   });
   </script>
-
+<!-- End of registeration complete notifcation script-->
+    
+<!-- Content -->    
 <body>
   <main class="page lanidng-page">
+    <!-- Start of Navigation bar -->
     <section class="portfolio-block block-intro">
       <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-white portfolio-navbar gradient">
         <div class="container"><a class="navbar-brand logo" href="#">Contadel</a><button class="navbar-toggler"
@@ -35,7 +43,11 @@
             </ul>
           </div>
         </div>
-      </nav><br><br>
+      </nav>
+      <!-- End of Navigation bar -->
+        
+    <br><br>
+        
 
       <div class="container">
 
@@ -47,11 +59,14 @@
               <div class="container">
                 <div class="container">
                   <div class="p-5">
+                    <!-- Begin Card text -->
                     <div class="text-center">
                       <h1 class="h4 text-gray-900 mb-4">Create an Account!</h1>
                     </div>
-                    <div class="alert" id="msg">                                  
-                                        </div>
+                    <!-- End of card text -->
+                    <!-- Confirmation message box -->
+                    <div class="alert" id="msg"></div>
+                    <!-- User entry form -->
                     <form class="user" action="includes/signup.inc.php" method="POST">
                       <div class="form-group row">
                         <div class="col-sm-6 mb-3 mb-sm-0">
@@ -84,25 +99,28 @@
                       <br>
                       <button name="signup-submit" class="btn btn-primary btn-user" type="submit">Register Account</button>
                     </form>
+                    <!-- End of entry form -->
                   </div>
                   <hr>
+                  <!-- Links to change password or log into account -->
                   <div class="text-center">
                     <a class="small" href="forgot-password.html">Forgot Password?</a>
                   </div>
                   <div class="text-center">
                     <a class="small" href="login.html">Already have an account? Login!</a><br>
-                    </form>
                     <hr>
                   </div>
+                  <!-- End of links to change password or log into account -->
                 </div>
               </div>
             </div>
+            <!-- End of card body-->
           </div>
         </div>
-
-      </div>
       </div>
     </section>
+      
+    <!-- Footer-->
     <footer class="page-footer">
       <div class="container">
         <div class="links"><a href="#">About us</a><a href="#">Contact&nbsp;</a><a href="#"></a></div>
@@ -111,11 +129,15 @@
         </div>
       </div>
     </footer>
+    <!-- End of Footer-->
   </main>
+
+  <!-- Scripts-->
   <script src="assets/js/jquery.min.js"></script>
   <script src="assets/bootstrap/js/bootstrap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>
   <script src="assets/js/theme.js"></script>
+  <!-- End of scripts--> 
 </body>
 
 </html>

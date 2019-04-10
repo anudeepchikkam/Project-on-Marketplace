@@ -4,14 +4,18 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Home - Contadel</title>
+    <!-- Stylesheets -->
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
     <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css">
+    <!-- End of stylesheets -->
 </head>
+<!-- Content -->
 <body>
     <main class="page lanidng-page">
         <section class="portfolio-block block-intro">
+            <!-- Start of Navigation bar -->
             <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-white portfolio-navbar gradient">
                 <div class="container"><a class="navbar-brand logo" href="#">Contadel</a><button class="navbar-toggler"
                         data-toggle="collapse" data-target="#navbarNav"><span class="sr-only">Toggle
@@ -30,6 +34,8 @@
                     </div>
                 </div>
             </nav>
+            <!-- End of Navigation bar -->
+            
   <div class="container">
     <!-- Outer Row -->
     <div class="row justify-content-center" >
@@ -39,9 +45,12 @@
             <div class="container" >          
               <div class="container" style="width: 520px">
                 <div class="p-5">
+                  <!-- Begin Card text -->
                   <div class="text-center">
                     <h1 class="h4 text-gray-900 mb-4">Login</h1>
                   </div>
+                  <!-- End of card text -->
+                  <!-- User entry form -->
                   <form action="includes/login.inc.php" method="post" class="user">
                     <div class="form-group">
                       <input type="text" class="form-control form-control-user" name="Username" placeholder="Enter Username or Email">
@@ -57,22 +66,28 @@
                     </div>
                     <button name="login-submit" class="btn btn-primary btn-user" type="submit">Login</button>
                   </form>
+                  <!-- End of entry form -->
                   <hr>
+                  <!-- Links to create or log into account -->
                   <div class="text-center">
                     <a class="small" href="forgot-password.html">Forgot Password?</a>
                   </div>
                   <div class="text-center">
                     <a class="small" href="register.html">Create an Account!</a>
                   </div>
+                  <!-- End of links to create or log into account -->
                 </div>
               </div>
             </div>
           </div>
+          <!-- End of card body-->
         </div>
       </div>
     </div>
-           </section>
- <footer class="page-footer">
+    </section>
+        
+    <!-- Footer -->
+    <footer class="page-footer">
         <div class="container">
             <div class="links"><a href="#">About us</a><a href="#">Contact&nbsp;</a><a href="#"></a></div>
             <div class="social-icons"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i
@@ -80,9 +95,14 @@
                         class="icon ion-social-twitter"></i></a></div>
         </div>
     </footer>
-</main>
+    <!-- End of Footer -->
+    </main>
+    
+    <!-- Scripts -->
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>
     <script src="assets/js/theme.js"></script>
+    <!-- End of scripts -->
+    </body>
 </html>

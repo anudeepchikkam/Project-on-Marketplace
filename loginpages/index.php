@@ -1,3 +1,7 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
 <?php
 //We need to have a session started on ALL pages
 session_start();
@@ -6,8 +10,6 @@ if (isset($_SESSION['results'])) {
     $results = $_SESSION['results'];
 }
 ?>
-<!DOCTYPE html>
-<html lang="en">
 
 <head>
 
@@ -86,7 +88,6 @@ if (isset($_SESSION['results'])) {
                 <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Course List:</h6>
-                        <a class="collapse-item" href="courses.html">All courses</a>
                         <a class="collapse-item" href="#">Recently viewed</a>
                         <a class="collapse-item" href="#">In progress</a>
                         <a class="collapse-item" href="#">Completed</a>
@@ -323,13 +324,12 @@ if (isset($_SESSION['results'])) {
                                                 ?>
                                                    <th>
                                                     <?php
-                                                    echo $person[$i]['firstname'];
+                                                    echo "<a href=\"cv.php?id=".$person[$i]['id']."\">".$person[$i]['firstname']. "</a>" ;
                                                     ?>
                                                 </th>
-                                               
-                                                <th>
+                                               <th>
                                                     <?php
-                                                    echo $person[$i]['surname'];
+                                                    echo "<a href=\"cv.php?id=".$person[$i]['id']."\">".$person[$i]['surname']. "</a>" ;
                                                     ?>
                                                 </th>
                                                 <th>
@@ -369,7 +369,7 @@ if (isset($_SESSION['results'])) {
                         <div class="alert" id="msg">
                         </div>
                         <!-- Content Row -->
-
+					<form class="form-horizontal" role="form" action="includes/profile.inc.php" method="POST">
                         <div class="container bootstrap snippet">
                             <div class="collapse" id="demo2">
                                 <h1 class="text-primary"><span class="glyphicon glyphicon-user"></span>Edit Profile</h1>
@@ -378,13 +378,14 @@ if (isset($_SESSION['results'])) {
                                     <!-- left column -->
                                     <div class="col-md-3">
                                         <div class="text-center">
+										<div class="form-group">
                                             <img src="//placehold.it/100" class="avatar img-circle" alt="avatar">
                                             <h6>Upload a photo</h6>
 
-                                            <input type="file">
+                                            <input type="file" name = "image" id="image"/>
                                         </div>
                                     </div>
-
+									</div>
                                     <!-- edit form column -->
                                     <div class="col-md-9 personal-info">
                                         <div class="alert alert-info alert-dismissable">
@@ -393,7 +394,7 @@ if (isset($_SESSION['results'])) {
                                         </div>
                                         <h3>Personal info</h3>
 
-                                        <form class="form-horizontal" role="form" action="includes/profile.inc.php" method="POST">
+                                        
 
                                             <div class="form-group">
                                                 <label multiple class="col-lg-3 control-label" rows="5">About Yourself:</label>
