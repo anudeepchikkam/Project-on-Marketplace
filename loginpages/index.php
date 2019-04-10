@@ -1,7 +1,3 @@
-
-<!DOCTYPE html>
-<html lang="en">
-
 <?php
 //We need to have a session started on ALL pages
 session_start();
@@ -10,6 +6,8 @@ if (isset($_SESSION['results'])) {
     $results = $_SESSION['results'];
 }
 ?>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
 
