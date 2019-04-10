@@ -8,7 +8,7 @@ if(isset($_POST['submit-search'])){
 //alert($_POST['searchQueryInput']); // checking if input recieved
 $searchQueryInput=$_POST['submitquery'];
 $likeString = "\"%".$searchQueryInput."%\"";
-$sql="SELECT * FROM users WHERE firstname LIKE '%" . $searchQueryInput . "%'OR surname LIKE '%" . $searchQueryInput . "%'OR otherHobbies LIKE '%" . $searchQueryInput . "%'"; 
+$sql="SELECT * FROM users WHERE firstname LIKE '%" . $searchQueryInput . "%'OR country LIKE '%" . "%'OR surname LIKE '%" . $searchQueryInput . "%'OR otherHobbies LIKE '%" . $searchQueryInput . "%'"; 
 //alert($sql);
 $result = mysqli_query($conn, $sql);
 $searchResult=mysqli_fetch_all($result,MYSQLI_ASSOC); //gets the matching result where the column contains the search string
