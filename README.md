@@ -1,6 +1,6 @@
 # Contadel Readme file
 
-This file will explain the structure and method to run the any version of the code in this repository 
+This file will explain the structure and method to run any version of the code in this repository 
 
 ## Getting Started
 
@@ -21,18 +21,17 @@ This file will explain the structure and method to run the any version of the co
 9.	To load the website type in localhost/contadel which will load the Contadel homepage
 
 ### Structure of the website
-The main directory consists of web pages that the public are able to view without login into their accounts.
-These are the following web pages:
-*	Index - this is the homepage of Contadel
+The structure of ther website without login in is as followed:
+*	Index - Homepage of Contadel that links to different pages of the website
 *	CV - a portfolio of a user
 *	Contact - contact form for the user to use
-
-The login directory structure is as followed:
 *	Register – This is where professionals create their accounts, the details are stored inside the users table, the passwords are also hashed before being sent.
 *	Login – This is where the user can log into their dashboard
+*	Forgot-password – Reset password by sending email to user (not implemented)
+
+After login into the website the structure of the website is as followed:
 *	Index – Users own dashboard page
 *	Tabs – A list of professionals with different format to view
-*	Forgot-password – Reset password by sending email to user (not fully implemented)
 *	Courses - Main page of courses that links to individual training courses
 *	CV - A portfolio of a user loaded by searching on the index page
 
