@@ -5,11 +5,12 @@ This file will explain the structure and method to run the any version of the co
 ## Getting Started
 
 1.	Download XAMPP found here: https://www.apachefriends.org/download.html 
-2.	Download the contadel folder found here:https://github.com/Brookes2019P00404/MarketPlace2
+2.	Download the contadel folder found here:https://github.com/Brookes2019P00404/MarketPlace2/releases
 
-### Installing
+### Setup
 
-1.	Install XAMPP, extract the contadel zip folder into C:/xampp/htdocs
+1.	Extract the contadel zip folder and rename the inner folder to contadel
+2.  Install XAMPP, copy and paste the contadel folder into C:/xampp/htdocs
 2.	Open XAMPP Control Panel and start Apache and MySQL, this will allow you to access the database
 3.	Once these modules are running, go to your browser and type in localhost/phpmyadmin
 4.	This will load the phpMyAdmin page, click on Databases
