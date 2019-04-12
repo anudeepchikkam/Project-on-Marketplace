@@ -32,7 +32,7 @@ The structure of ther website without login in is as followed:
 After login into the website the structure of the website is as followed:
 *	Index – Users own dashboard and search page
 *	Courses - Main page of courses that links to individual training courses
-*	CV - A portfolio of a user loaded by searching on the index page
+*	CV - A portfolio of a user loaded by searching on the index page and Hire me Button opens up a new page with messaging send Text box
 
 ## Built With
 
