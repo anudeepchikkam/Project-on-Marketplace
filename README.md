@@ -24,14 +24,13 @@ This file will explain the structure and method to run any version of the code i
 The structure of ther website without login in is as followed:
 *	Index - Homepage of Contadel that links to different pages of the website
 *	CV - a portfolio of a user
-*	Contact - contact form for the user to use
+*	Contact - contact form for the user to use (not fully implemented)
 *	Register – This is where professionals create their accounts, the details are stored inside the users table, the passwords are also hashed before being sent.
 *	Login – This is where the user can log into their dashboard
-*	Forgot-password – Reset password by sending email to user (not implemented)
+*	Forgot-password – Reset password by sending email to user (not fully implemented)
 
 After login into the website the structure of the website is as followed:
-*	Index – Users own dashboard page
-*	Tabs – A list of professionals with different format to view
+*	Index – Users own dashboard and search page
 *	Courses - Main page of courses that links to individual training courses
 *	CV - A portfolio of a user loaded by searching on the index page
 
