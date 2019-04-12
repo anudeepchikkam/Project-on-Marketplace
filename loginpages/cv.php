@@ -52,7 +52,7 @@ mysqli_close($conn);
                 <div class="avatar" style="background-image:url(&quot;assets/img/avatars/avatar.jpg&quot;);"></div>
                 <div class="about-me">
                     <p>Hello! I am <strong><?php echo $searchResult['firstname'] . ' '. $searchResult['surname']?></strong><?php if(!empty($searchResult['country'])){echo " from ".$searchResult['country'];}?> <p><?php echo $searchResult['selfIntro']//echos first and lastname of the person?></p></p> 
-					<a class="btn btn-outline-primary" role="button" href="#">Hire me</a></div>
+					<a class="btn btn-outline-primary" role="button" href="message.php">Hire me</a></div>
             </div>
 			<!-- End of introduction container -->
         </section>
